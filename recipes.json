@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pancakes",
+        "prepTime": "30 minutes",
+        "cookTime": "60 minutes",
+        "servingSize": "4 servings",
+        "groceryList": [
+            { "amount": 2, "unit": "cups", "item": "Flour" },
+            { "amount": 1, "unit": "cup", "item": "Milk" },
+            { "amount": 4, "unit": "count", "item": "Eggs" }
+        ],
+        "instructions": [
+            "Step 1: Preheat the oven to 350°F.",
+            "Step 2: Mix flour and milk in a bowl.",
+            "Step 3: Add eggs and stir well."
+        ]
+    },
+    {
+        "name": "Garlic Chicken",
+        "prepTime": "20 minutes",
+        "cookTime": "40 minutes",
+        "servingSize": "2 servings",
+        "groceryList": [
+            { "amount": 1, "unit": "lb", "item": "Chicken" },
+            { "amount": 2, "unit": "cloves", "item": "Garlic" }
+        ],
+        "instructions": [
+            "Step 1: Marinate the chicken in garlic and spices.",
+            "Step 2: Grill until cooked."
+        ]
+    }
+]

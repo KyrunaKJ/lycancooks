@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>Lycan Cooks!</h1>
+            
+            <!-- Recipe List -->
+            <section class="recipe-list">
+                <h2>Recipes for <span id="current-day"></span></h2>
+                <ul></ul>
+            </section>
+
+            <!-- Grocery List -->
+            <section class="grocery-list">
+                <h2>Grocery List</h2>
+                <div class="tab-buttons">
+                    <button id="show-all-groceries">Show All Groceries</button>
+                    <!-- Add more tab buttons for other recipes if needed -->
+                </div>
+                <div class="tab-content">
+                    <div id="recipe1-groceries">
+                        <h3 id="groceries">Groceries for Today's Recipes</h3>
+                        <ul></ul>
+                    </div>                    
+                </div>
+            </section>            
+
+            <!-- Recipe Instructions -->
+            <section class="recipe-instructions">
+                <h2>Recipe Instructions</h2>
+                <div class="tab-buttons">
+                    <!-- Add more tab buttons for other recipes if needed -->
+                </div>
+                <div class="tab-content">
+                    <div id="recipe1-instructions">
+                        <h3 id="instructions">Recipe 1 Instructions</h3>
+                        <ul>
+                            <li>YOU JUST NEED A LOT OF POTATOES : YOU JUST NEED A LOT OF POTATOES : YOU JUST NEED A LOT OF POTATOES : YOU JUST NEED A LOT OF POTATOES : </li>
+                            <li>Step 2: Instruction 2 for Recipe 1</li>
+                            <li>Step 3: Instruction 3 for Recipe 1</li>
+                            <!-- Add more recipe steps as list items -->
+                        </ul>
+                    </div>
+                    <!-- Add more divs for instructions of other recipes if needed -->
+                </div>
+            </section>
+        </div>
+        
+        <div class="social-media-icons">            
+            <div class="linktree-container">
+                <a href="https://linktr.ee/lycancooks">
+                    <img src="https://github.com/KyrunaKJ/lycancooks/blob/main/linktree.jpeg?raw=true" alt="Linktree Icon" class="linktree-icon">                    
+                </a>
+            </div> 
+            <div>
+                <a href="https://twitter.com/LycanCooks" class="twitter-container">
+                    <img src="https://ugc.production.linktr.ee/2205d60d-fcdb-40a6-a752-6272fd355b5c_DJamUaA4TkKOi4rxX8qP-38A4A74C-1506-47ED-9B63-9957CB776103.png?io=true&amp;size=thumbnail-stack">
+                </a>            
+            </div>         
+            <div class="tiktok-container">
+                <a href="https://www.tiktok.com/@lycancooks">
+                    <img src="https://ugc.production.linktr.ee/dd780af9-53b1-4d9c-873c-0791fdfe7fa9_iqbWSZyCQGO9k4JK7wSJ-d3VzKufRqFT19BGs.png?io=true&size=thumbnail-stack" alt="">
+                </a>
+            </div> 
+            <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/LycanCooks?ref_src=twsrc%5Etfw">Tweets by LycanCooks</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
+    </div>
+    
+    <!-- JavaScript for functionality -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>

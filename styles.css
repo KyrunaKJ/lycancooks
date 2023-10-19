@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(to bottom right, black, #282828, white);
+    color: #999999;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    width: 80%; /* Adjust this width as needed */
+    margin: 0 auto; /* Horizontally center content */
+    text-align: center; /* Center text within content */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Vertically center content */
+}
+
+.recipe-list ul {
+    list-style: inside; /* Place bullet points inside the list item */
+    margin-left: 0; /* Remove default margin on the left */
+    padding-left: 0px; /* Adjust the space between bullet and text */
+}
+
+.recipe-list li {
+    margin-bottom: 5px; /* Adjust the space between list items */
+}
+
+.recipe-instructions {
+    padding: 10px;
+}
+
+#recipe1-groceries {
+    border: 1px solid #000; /* You can adjust the border width and color */
+    color: #000;
+    background-color: white;
+    padding: 10px; /* Optional: Add padding for spacing inside the border */
+    min-width: 650px;
+    max-width: 750px;
+}
+
+#recipe1-groceries h3 {
+    text-align: left; /* Left-justify the h3 heading */
+}
+
+#recipe1-groceries ul {
+    list-style: disc outside; /* Position bullet points outside the list */
+    padding-left: 20px; /* Add some indentation for the list items */
+}
+
+#recipe1-groceries ul li {
+    text-align: left; /* Left-justify the list items */
+}
+
+#recipe1-instructions {
+    border: 1px solid #000; /* You can adjust the border width and color */
+    color: #000;
+    background-color: white;
+    padding: 10px; /* Optional: Add padding for spacing inside the border */
+    min-width: 600px;
+    max-width: 750px;
+}
+
+#recipe1-instructions h3 {
+    text-align: left; /* Left-justify the recipe heading */
+}
+
+#recipe1-instructions ul {
+    list-style: disc outside; /* Position bullet points outside the list */
+    padding-left: 20px; /* Add some indentation for the list items */
+}
+
+#recipe1-instructions ul li {
+    text-align: left; /* Left-justify the list items (recipe steps) */
+}
+
+.tab-buttons {
+    display: flex;
+}
+
+.tab-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    border: 5px solid #0056b3;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.social-media-icons {
+    width: 20%; /* Adjust this width as needed */
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-icons div {
+    margin-bottom: 50px; /* Adjust the value to control the space between elements */
+}
+
+.linktree-icon {
+    width: 100px; /* Adjust the width and height to fit your icon */
+    height: 100px;
+}
