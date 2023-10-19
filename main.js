@@ -13,6 +13,11 @@ const showAllButton = document.getElementById("show-all-groceries");
 const instructionsHeader = document.getElementById("instructions");
 const groceriesHeader = document.getElementById("groceries");
 
+setTimeout(() => {
+    const twitterObject = document.querySelector(".twitter-timeline");
+    twitterObject.setAttribute("style", `${twitterObject.getAttribute("style")} min-width: 90%;`); 
+}, 7500);
+
 function clearGroceryList() {
     while (groceryItemList.firstChild) {
         groceryItemList.removeChild(groceryItemList.firstChild);        

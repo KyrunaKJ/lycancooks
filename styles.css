@@ -117,10 +117,10 @@ body {
     .container {
         display: flex;
         flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center;
     }
     
     .main-content {
-        width: 90%; /* Increase width for smaller screens */
         margin: 0 auto;
         text-align: center;
         display: flex;
@@ -211,9 +211,7 @@ body {
         width: 90%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        text-align: center;
-        justify-content: center; 
+        align-items: center;
     }
     
     .social-media-icons div {
@@ -224,4 +222,8 @@ body {
         width: 100px; 
         height: 100px;
     }    
+
+    .twitter-timeline twitter-timeline-rendered {
+        min-width: 90%;
+    }
 }
