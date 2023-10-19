@@ -107,3 +107,119 @@ body {
     width: 100px; 
     height: 100px;
 }
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(to bottom right, black, #360e37, #282828, rgb(94, 41, 41));
+        color: #999999;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+    
+    .main-content {
+        width: 90%; /* Increase width for smaller screens */
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center content vertically */
+        align-items: center;
+    }
+    
+    .recipe-list ul {
+        list-style: inside;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .recipe-list li {
+        margin-bottom: 5px;
+    }
+    
+    .recipe-instructions {
+        padding: 10px;
+    }
+    
+    #recipe1-groceries {
+        border: 1px solid #000;
+        color: #000;
+        background-color: white;
+        padding: 10px;
+        min-width: auto; /* Remove min-width to allow content to adjust */
+        max-width: 750px;
+    }
+    
+    #recipe1-groceries h3 {
+        text-align: left;
+    }
+    
+    #recipe1-groceries ul {
+        list-style: disc outside;
+        padding-left: 20px;
+    }
+    
+    #recipe1-groceries ul li {
+        text-align: left;
+    }
+    
+    #recipe1-instructions {
+        border: 1px solid #000;
+        color: #000;
+        background-color: white;
+        padding: 10px;
+        min-width: auto; /* Remove min-width to allow content to adjust */
+        max-width: 750px;
+    }
+    
+    #recipe1-instructions h3 {
+        text-align: left;
+    }
+    
+    #recipe1-instructions ul {
+        list-style: disc outside;
+        padding-left: 20px;
+    }
+    
+    #recipe1-instructions ul li {
+        text-align: left;
+    }
+    
+    .tab-buttons {
+        display: flex;
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center;
+    }
+    
+    .tab-buttons button {
+        background-color: #282828;
+        color: #fff;
+        border: 5px solid #0056b3;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin: 5px; /* Add margin for button spacing */
+    }
+    
+    .tab-buttons button:hover {
+        background-color: #000;
+    }
+    
+    .social-media-icons {
+        width: 80%; /* Increase width for smaller screens */
+        display: flex;
+        flex-direction: row; /* Change to a row layout for social media icons */
+        justify-content: center; /* Center the icons horizontally */
+    }
+    
+    .social-media-icons div {
+        margin-top: 0; /* Remove margin for social media icons */
+    }
+    
+    .linktree-icon {
+        width: 50px; /* Reduce the icon size for smaller screens */
+        height: 50px;
+    }    
+}
