@@ -1,4 +1,4 @@
-export function setCurrentDay() {// Create a new Date object to fetch the current date
+export function setCurrentDay() {
     const currentDate = new Date();
 
     // Define an array to map day names

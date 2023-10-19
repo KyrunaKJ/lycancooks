@@ -9,23 +9,23 @@ body {
 }
 
 .main-content {
-    width: 80%; /* Adjust this width as needed */
-    margin: 0 auto; /* Horizontally center content */
-    text-align: center; /* Center text within content */
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; /* Vertically center content */
+    align-items: center; 
 }
 
 .recipe-list ul {
-    list-style: inside; /* Place bullet points inside the list item */
-    margin-left: 0; /* Remove default margin on the left */
-    padding-left: 0px; /* Adjust the space between bullet and text */
+    list-style: inside; 
+    margin-left: 0;
+    padding-left: 0px;
 }
 
 .recipe-list li {
-    margin-bottom: 5px; /* Adjust the space between list items */
+    margin-bottom: 5px; 
 }
 
 .recipe-instructions {
@@ -33,47 +33,47 @@ body {
 }
 
 #recipe1-groceries {
-    border: 1px solid #000; /* You can adjust the border width and color */
+    border: 1px solid #000; 
     color: #000;
     background-color: white;
-    padding: 10px; /* Optional: Add padding for spacing inside the border */
+    padding: 10px; 
     min-width: 650px;
     max-width: 750px;
 }
 
 #recipe1-groceries h3 {
-    text-align: left; /* Left-justify the h3 heading */
+    text-align: left; 
 }
 
 #recipe1-groceries ul {
-    list-style: disc outside; /* Position bullet points outside the list */
-    padding-left: 20px; /* Add some indentation for the list items */
+    list-style: disc outside; 
+    padding-left: 20px; 
 }
 
 #recipe1-groceries ul li {
-    text-align: left; /* Left-justify the list items */
+    text-align: left;
 }
 
 #recipe1-instructions {
-    border: 1px solid #000; /* You can adjust the border width and color */
+    border: 1px solid #000;
     color: #000;
     background-color: white;
-    padding: 10px; /* Optional: Add padding for spacing inside the border */
+    padding: 10px;
     min-width: 600px;
     max-width: 750px;
 }
 
 #recipe1-instructions h3 {
-    text-align: left; /* Left-justify the recipe heading */
+    text-align: left; 
 }
 
 #recipe1-instructions ul {
-    list-style: disc outside; /* Position bullet points outside the list */
-    padding-left: 20px; /* Add some indentation for the list items */
+    list-style: disc outside; 
+    padding-left: 20px; 
 }
 
 #recipe1-instructions ul li {
-    text-align: left; /* Left-justify the list items (recipe steps) */
+    text-align: left;
 }
 
 .tab-buttons {
@@ -81,7 +81,7 @@ body {
 }
 
 .tab-buttons button {
-    background-color: #007BFF;
+    background-color: #282828;
     color: #fff;
     border: 5px solid #0056b3;
     padding: 10px 20px;
@@ -90,20 +90,20 @@ body {
 }
 
 .tab-buttons button:hover {
-    background-color: #0056b3;
+    background-color: #000;
 }
 
 .social-media-icons {
-    width: 20%; /* Adjust this width as needed */
+    width: 20%; 
     display: flex;
     flex-direction: column;
 }
 
 .social-media-icons div {
-    margin-bottom: 50px; /* Adjust the value to control the space between elements */
+    margin-top: 50px;
 }
 
 .linktree-icon {
-    width: 100px; /* Adjust the width and height to fit your icon */
+    width: 100px; 
     height: 100px;
 }
