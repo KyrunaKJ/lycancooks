@@ -41,7 +41,7 @@ function replaceGroceryList(event) {
             listItem.textContent = `${grocery.amount} ${grocery.unit} of ${grocery.item}`;
             groceryItemList.appendChild(listItem);
         });
-        groceriesHeader.textContent = `Groceries for Today's Recipes #${recipeId}`;
+        groceriesHeader.textContent = `Groceries for Recipe #${recipeId}`;
         instructionsHeader.textContent = `Recipe ${recipeId} Instructions`;
     }
 }
