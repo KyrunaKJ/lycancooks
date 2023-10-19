@@ -210,12 +210,12 @@ body {
     .social-media-icons {
         width: 80%; /* Increase width for smaller screens */
         display: flex;
-        flex-direction: row; /* Change to a row layout for social media icons */
+        flex-direction: column; /* Change to a row layout for social media icons */
         justify-content: center; /* Center the icons horizontally */
     }
     
     .social-media-icons div {
-        margin-top: 0; /* Remove margin for social media icons */
+        margin-top: 10px; /* Remove margin for social media icons */
     }
     
     .linktree-icon {
