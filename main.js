@@ -13,7 +13,6 @@ const showAllButton = document.getElementById("show-all-groceries");
 const instructionsHeader = document.getElementById("instructions");
 const groceriesHeader = document.getElementById("groceries");
 
-// Function to clear the grocery list
 function clearGroceryList() {
     while (groceryItemList.firstChild) {
         groceryItemList.removeChild(groceryItemList.firstChild);        
@@ -71,14 +70,14 @@ function replaceRecipeList(event) {
 showAllButton.addEventListener('click', replaceGroceryList);
 showAllButton.addEventListener('click', replaceRecipeList);
 
-fetch("recipes.json")
-    .then((response) => response.text())
+const url = "https://recipes-lycancooks.s3.us-east-2.amazonaws.com/recipes.json";
+
+fetch(url)
+    .then((response) => response.json())
     .then((jsontext) => {
-        recipes = JSON.parse(jsontext);
+        recipes = jsontext;
         clearGroceryList();
         clearRecipeList();
-
-        ////////////////////////////////////////////////////////////////////////////////////
 
         recipes.forEach((recipe, index) => {
             const listItem = document.createElement("li");
@@ -114,4 +113,7 @@ fetch("recipes.json")
                 });
             }
         });
-});
+    }).catch(() => {
+        console.log("Couldn't grab json");
+    })  
+;
