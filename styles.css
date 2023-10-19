@@ -189,7 +189,7 @@ body {
     
     .tab-buttons {
         display: flex;
-        flex-direction: column; /* Change to column layout for smaller screens */
+        flex-direction: column;
         align-items: center;
     }
     
@@ -208,18 +208,18 @@ body {
     }
     
     .social-media-icons {
-        width: 80%; /* Increase width for smaller screens */
         display: flex;
-        flex-direction: column; /* Change to a row layout for social media icons */
-        justify-content: center; /* Center the icons horizontally */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
     }
     
     .social-media-icons div {
-        margin-top: 10px; /* Remove margin for social media icons */
+        margin-top: 10px; 
     }
     
     .linktree-icon {
-        width: 50px; /* Reduce the icon size for smaller screens */
-        height: 50px;
+        width: 100px; 
+        height: 100px;
     }    
 }
