@@ -5,7 +5,8 @@ body {
 
 .container {
     background-image: url('lggl.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
 }
