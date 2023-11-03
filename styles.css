@@ -1,9 +1,11 @@
 body {
     background: linear-gradient(to bottom right, black, #360e37, #282828, rgb(94, 41, 41));
-    color: #999999;
+    color: #f4f0f0;
 }
 
 .container {
+    background-image: url('lggl.png');
+    background-repeat: repeat;
     display: flex;
     flex-direction: row;
 }
